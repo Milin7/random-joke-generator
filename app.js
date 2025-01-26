@@ -8,7 +8,7 @@ async function fetchData() {
       document.getElementById("delivery"),
     ];
     jokeSetup.textContent = joke || setup;
-    jokeDelivery.textContent = joke ? "" : delivery;
+    jokeDelivery.textContent = joke ? "" : deliv;
   } catch (error) {
     console.log(error);
   }
